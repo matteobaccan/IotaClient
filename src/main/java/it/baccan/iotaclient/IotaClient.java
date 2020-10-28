@@ -22,7 +22,7 @@ public class IotaClient {
     public static void main(String[] args) {
         // Start test
         log.info("Start");
-        
+
         // Connect to DEV IOTA node
         IotaAPI api = new IotaAPI.Builder()
                 .protocol("https")
@@ -35,7 +35,7 @@ public class IotaClient {
 
         // Log Info
         log.info("[{}]", response);
-        
+
         // Enf
         log.info("End");
     }

@@ -26,7 +26,7 @@ public class IotaClient {
         // Connect to DEV IOTA node
         IotaAPI api = new IotaAPI.Builder()
                 .protocol("https")
-                .host("nodes.devnet.iota.org")
+                .host("nodes.devnet.thetangle.org")
                 .port(443)
                 .build();
 
@@ -38,6 +38,6 @@ public class IotaClient {
 
         // Enf
         log.info("End");
-    }
+    }   
 
 }
